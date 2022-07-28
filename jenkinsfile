@@ -7,7 +7,7 @@ pipeline {
     }
     post { 
 	failure {
-	   mail body: 'Hi Adam', subject: 'The Pipeline failed', to: 'scmlearningcentre@gmail.com'
+	   mail body: 'Hi Naga', subject: 'The Pipeline failed', to: 'liekerboynagaraju786@gmail.com'
         }
     }
 }
